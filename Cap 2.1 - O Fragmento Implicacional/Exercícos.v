@@ -1,6 +1,3 @@
-
-
-
 Variables p q r: Prop.
 
 Lemma exercicio1 : (p -> p -> q) -> p -> q .
