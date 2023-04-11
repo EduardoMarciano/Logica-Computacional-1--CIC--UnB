@@ -1,6 +1,6 @@
 Variables p q r: Prop.
 
-Lemma exercicio1 : (p -> p -> q) -> p -> q .
+Lemma Exe1 : (p -> p -> q) -> p -> q .
 Proof.
     intros.
     apply H.
@@ -8,7 +8,7 @@ Proof.
     assumption.
 Admitted.
 
-Lemma exercicio2 : (p -> q) -> (p -> p -> q).
+Lemma Exe2 : (p -> q) -> (p -> p -> q).
 Proof.
     intros.
     apply H.
@@ -16,7 +16,7 @@ Proof.
 Admitted.
 
 Variable t: Prop.
-Lemma exercicio3 : (q -> r -> t) -> (p -> q) -> p -> r -> t.
+Lemma Exe3 : (q -> r -> t) -> (p -> q) -> p -> r -> t.
 Proof.
     intros.
     apply H.
@@ -25,7 +25,7 @@ Proof.
     assumption.
 Admitted.
 
-Lemma exercicio4 : (p -> q -> r) -> (p -> q) -> p -> r.
+Lemma Exe4: (p -> q -> r) -> (p -> q) -> p -> r.
 Proof.
     intros.
     apply H.
@@ -34,7 +34,7 @@ Proof.
     apply H1.
 Admitted.
 
-Lemma exercicio5 : (p -> q -> r) -> (q -> p -> r).
+Lemma Exe5: (p -> q -> r) -> (q -> p -> r).
 Proof.
   intros.
   apply H.
