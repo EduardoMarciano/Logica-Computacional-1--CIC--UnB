@@ -1,6 +1,6 @@
 Variables p q r: Prop.
 
-Lemma Exe1 : (p -> p -> q) -> p -> q .
+Lemma Exe1 : (p -> p -> q) -> p -> q.
 Proof.
     intros.
     apply H.
