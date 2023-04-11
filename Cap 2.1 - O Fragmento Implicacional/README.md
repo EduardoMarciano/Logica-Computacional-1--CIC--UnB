@@ -1,5 +1,6 @@
 LC1--CIC--UnB
-Resolução: Ex1 (p -> p -> q) -> p -> q.
+Resolução: 
+	   Ex1 (p -> p -> q) -> p -> q.
 
 	   Ex2 (p -> q) -> (p -> p -> q).
 	   
