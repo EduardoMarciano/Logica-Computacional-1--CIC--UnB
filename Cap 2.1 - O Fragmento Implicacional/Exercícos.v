@@ -1,3 +1,4 @@
+Section Capitulo1.
 Variables p q r: Prop.
 
 Lemma Exe1 : (p -> p -> q) -> p -> q .
@@ -41,3 +42,4 @@ Proof.
   apply H1.
   apply H0.
 Admitted.
+End Capitulo1.
