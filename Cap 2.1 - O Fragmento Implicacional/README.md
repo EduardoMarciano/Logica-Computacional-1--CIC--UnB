@@ -2,7 +2,7 @@ Resolução:
 
 	Ex1 (p -> p -> q) -> p -> q.
 
-	Ex2 (p -> q) -> (p -> p -> q).s
+	Ex2 (p -> q) -> (p -> p -> q).
 	   
 	Ex3 q -> r -> t) -> (p -> q) -> p -> r -> t.
 	   
