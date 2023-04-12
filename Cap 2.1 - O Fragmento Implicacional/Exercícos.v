@@ -30,7 +30,7 @@ Lemma Exe4: (p -> q -> r) -> (p -> q) -> p -> r.
 Proof.
     intros.
     apply H.
-    apply H1.
+    assumption.
     apply H0.
     apply H1.
 Qed.
