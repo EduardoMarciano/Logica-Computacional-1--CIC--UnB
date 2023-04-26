@@ -1,4 +1,4 @@
-Section SubCapitulo2.
+Section SubCapitulo1.
 Variables p q r: Prop.
 
 Lemma Exe1 : (p -> p -> q) -> p -> q.
@@ -43,4 +43,4 @@ Proof.
   assumption.
   assumption.
 Qed.
-End SubCapitulo2.
+End SubCapitulo1.
