@@ -19,9 +19,24 @@ Hypothesis H : (~p) /\ (~q).
 Lemma min2 : ~(p \/ q).
 
  Proof.
-  apply H.
-  
-Qed.
-
+  Admitted.
 
 End exercicio_min2.
+
+Section exercicio_min12.
+Variables p u y: Prop.
+
+Hypothesis H: (p\/u)/\(p\/y).
+Lemma min12:  p\/(u/\y).
+
+Proof.
+  destruct H.
+  destruct H0.
+    - left. assumption.
+    - destruct H1.
+      + left. assumption.
+      + right. split.
+          * assumption.
+          * assumption.
+Qed.
+End exercicio_min12.

@@ -100,10 +100,10 @@ Qed.
 End Conjunção.
 
 Section Dijunção.
-Variables p q r: Prop.
+Variables p u r: Prop.
 
-Hypothesis H : (p \/ q) \/ r.
-Lemma E1: p \/ (q \/ r ).
+Hypothesis H : (p \/ u) \/ r.
+Lemma E1: p \/ (u \/ r ).
 Proof.
   destruct H.
   -  destruct H0.
