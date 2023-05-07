@@ -14,7 +14,7 @@ Proof.
   intro.
   apply H0.
   intro.
-  assumption.
+  assumption. 
 
 Qed.
 End Cap3.
